@@ -1,0 +1,166 @@
+[any] # can be used in the start or end
+consonants = [
+    "r",
+    "r",
+    "r",
+    "t",
+    "t",
+    "t",
+    "s",
+    "n",
+    "l",
+    "r",
+    "t",
+    "s",
+    "n",
+    "r",
+    "r",
+    "r",
+    "t",
+    "t",
+    "t",
+    "s",
+    "n",
+    "l",
+    "r",
+    "t",
+    "s",
+    "n",
+    "r",
+    "r",
+    "r",
+    "t",
+    "t",
+    "t",
+    "s",
+    "n",
+    "l",
+    "r",
+    "t",
+    "s",
+    "n",
+
+    "c",
+    "k",
+    "c",
+    "k",
+    "c",
+    "k",
+
+    "b",
+    "c",
+    "d",
+    "f",
+    "g",
+    "h",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "p",
+    "qu", # q is never followed by any other letter but u
+    "r",
+    "s",
+    "t",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "ch",
+    "sh",
+    "sh",
+    "ph",
+    "th",
+    "ph",
+    "th",
+]
+
+vowels = [
+    "e",
+    "e",
+    "e",
+    "a",
+    "a",
+    "i",
+    "o",
+    "u",
+    "e",
+    "e",
+    "e",
+    "a",
+    "a",
+    "i",
+    "o",
+    "u",
+    "oi",
+    "oa",
+    "ou",
+]
+
+[start] # can only be used in the start of a syllable
+consonants = [
+    "spl",
+    "spr",
+    "thr",
+]
+
+vowels = []
+
+[end] # can only be used in the end of a syllable
+consonants = [
+    "ck",
+    "lt",
+    "re",
+    "te",
+    "se",
+    "ne",
+    "le",
+    "lp",
+    "mp",
+    "nk",
+    "ng",
+    "nt",
+    "nd",
+    "lk",
+    "lp",
+    "lm",
+    "ln",
+    "rt",
+]
+
+vowels = [
+    "ui",
+    "ia",
+    "iu",
+    "ie",
+    "oe",
+]
+
+exclude = [
+    "i",
+    "u",
+    "o",
+    "c",
+    "h",
+    "j",
+    "k",
+    "q",
+    "qu",
+    "oa",
+    "oi",
+    "f"
+]
+
+[misc]
+declensions = [
+    "",
+    "s"
+]
+
+conjugations = [
+    "",
+    "s",
+    "ed"
+]

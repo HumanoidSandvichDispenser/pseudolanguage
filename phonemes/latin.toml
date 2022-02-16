@@ -1,0 +1,91 @@
+[any] # can be used in the start or end
+consonants = [
+    "t",
+    "t",
+    "t",
+    "t",
+    "s",
+    "s",
+    "s",
+    "r",
+    "r",
+    "n",
+
+    "t",
+    "t",
+    "t",
+    "t",
+    "s",
+    "s",
+    "s",
+    "r",
+    "r",
+    "n",
+
+    "m",
+    "c",
+    "p",
+    "l",
+    "d",
+    "b",
+    "g",
+    "v",
+    "f",
+    "h",
+    "x",
+]
+
+vowels = [
+    "e",
+    "e",
+    "e",
+    "e",
+    "e",
+    "i",
+    "i",
+    "i",
+    "i",
+    "u",
+    "u",
+    "u",
+    "a",
+    "a",
+    "o"
+]
+
+[start] # can only be used in the start of a syllable
+consonants = [
+    "qu"
+]
+
+vowels = []
+
+[end] # can only be used in the end of a syllable
+consonants = [
+]
+
+vowels = [
+]
+
+exclude = [
+    "v"
+]
+
+[misc]
+declensions = [
+    "us",
+    "um",
+    "a",
+    "am",
+    "o",
+    "is"
+]
+
+conjugations = [
+    "at",
+    "as",
+    "ant",
+    "unt",
+    "o",
+    "mus"
+]
